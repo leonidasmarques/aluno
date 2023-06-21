@@ -14,16 +14,16 @@ public class Aluno {
 	public String validaAprovacao() {
 		double aux; 
 		if(somaNota() > 60) {
-			return "PASS";
+			return "PASSOU!!!";
 		}else {
 			aux = 60 - somaNota();
-			return "RECUPERAÇÃO /nl FALTA" + aux + "PONTOS";
+			return " RECUPERAÇÃO FALTOU " + aux + " PONTOS PARA SER APROVADO!";
 		}		
 	}
 	
 	@Override
 	public String toString() {
-		return "RESULTADO FINAL =" + somaNota() + "\nl  " + validaAprovacao();
+		return "RESULTADO FINAL = " + somaNota() + validaAprovacao();
 	}
 
 
