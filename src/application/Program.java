@@ -22,9 +22,7 @@ public class Program {
 		
 		double notaTotal = alun.somaNota();
 		
-		
 		String resultado = alun.validaAprovacao();
-		//System.out.println(resultado);
 		
 		System.out.println(alun);
 
